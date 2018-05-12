@@ -1,0 +1,150 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+
+    <!-- <img src='{% static "img/home-bg.jpg" %}'/>  -->
+ 
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personality Leading.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/text.css' %}">
+
+    <!-- Custom fonts for this template -->
+    <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/clean-blog.min.css' %}" rel="stylesheet">
+
+    <style>
+      body{
+        background: url('{% static "img/home-bg.jpg" %}') no-repeat center fixed;
+
+        -moz-background: cover;
+        -o- background : cover;
+        -webkit-background:cover;
+        background-size: cover;
+      }
+    </style>
+
+    
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="p-3 mb-2 bg-info text-white"><strong> PERSONALITY LEADING </strong></div>
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="index.html">/a> -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/home/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services/">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- Page Header -->
+    <!-- <header class="masthead" style="background-image: url('img/home-bg.jpg')"> -->
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <br>
+              <br>
+              <br>
+              <br>
+              <h1>WHAT COULD BE BETTER THAN PERSONALITY DEVELOPMENT?</h1>
+             <a class="nav-link" href="/contact/">JOIN THE CLASSROOM TODAY</a>
+             <br>
+             <br>
+             <h5>Personality development is nothing but the act of moving from an inert and disinterested state of existence to a zealous, motivated and joyous living one. It’s is the act of celebrating your uniqueness without hesitations and boundaries, but only with more enthusiasm and liveliness.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>      
+          
+
+    <!-- Footer -->
+    <footer>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/onlinejobsguruu">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/onlinejobsguru05/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <!-- <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedIn fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li> -->
+            </ul>
+            <p class="copyright text-muted">© 2016 PERSONALITY LEADING, ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'js/clean-blog.min.js' %}"></script>
+
+  </body>
+
+</html>

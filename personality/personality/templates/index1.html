@@ -1,0 +1,10 @@
+{% if obj %}
+{% for k in obj %}
+<h4>Name:{{ k.name }}</h4>
+<h4>Email:{{ k.email }}</h4>
+<h4>Phone:{{ k.phone }}</h4>
+<h4>Message:{{ k.message }}</h4>
+    <hr>
+
+{% endfor %}
+{% endif %}
